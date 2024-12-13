@@ -6,53 +6,48 @@ import Image from "next/image";
 const features = [
   {
     icon: "/icons/fast.svg",
-    title: "Fast Delivery",
-    description:
-      "1-2 weeks delivery for most projects. Call us for more information.",
+    title: "Quick Market Entry",
+    description: "Launch your products on major marketplaces within 1-2 weeks with our streamlined onboarding process.",
   },
   {
     icon: "/icons/design.svg",
-    title: "Design & Development",
-    description:
-      "We design and develop your website with the latest technologies and trends.",
+    title: "Product Listing Excellence",
+    description: "Professional product listings with optimized content, compelling descriptions, and high-quality images.",
   },
   {
     icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+    title: "Scalable Operations",
+    description: "Scalable inventory management and order fulfillment solutions across multiple marketplaces.",
   },
   {
     icon: "/icons/team.svg",
-    title: "Team of Experts",
-    description: "A team of experts ready to help you, at all times.",
+    title: "Dedicated Account Managers",
+    description: "Expert account managers specializing in marketplace growth and brand development.",
   },
   {
     icon: "/icons/safe.svg",
-    title: "Secure Building",
-    description:
-      "Safe and secure building practices. To ensure your data is safe.",
+    title: "Brand Protection",
+    description: "Robust brand protection strategies and counterfeit monitoring across all platforms.",
   },
   {
     icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
+    title: "Performance Analytics",
+    description: "Comprehensive analytics dashboard tracking sales, rankings, and competitor metrics.",
   },
-
   {
     icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
+    title: "Dynamic Pricing Strategy",
+    description: "Smart pricing algorithms to maintain competitiveness while protecting margins.",
   },
   {
     icon: "/icons/support.svg",
-    title: "24/7 Support",
-    description:
-      "We offer 24/7 support for all our clients. Call us for more information.",
+    title: "24/7 Marketplace Support",
+    description: "Round-the-clock support for inventory, order, and customer service management.",
   },
   {
     icon: "/icons/money.svg",
-    title: "Affordable Pricing",
-    description: "Affordable pricing for all our clients.",
+    title: "ROI-Focused Advertising",
+    description: "Cost-effective advertising campaigns optimized for maximum return on ad spend.",
   },
 ];
 
