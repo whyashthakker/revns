@@ -21,39 +21,33 @@ import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen
 const services = [
   {
     icon: "/images/s_6.png",
-    title: "Web Design + Development",
-    description:
-      "Take your business to the next level with our web design and development services",
-  },
-  {
-    icon: "/images/s_1.png",
-    title: "Search Engine Optimization",
-    description:
-      "Get your website to the top of search engine results with our SEO services",
+    title: "Amazon & Marketplace Ads",
+    description: "Strategic advertising solutions to boost your product visibility and sales across Amazon and other leading marketplaces"
   },
   {
     icon: "/images/s_5.png",
-    title: "Content Creation",
-    description:
-      "Boost your brand's online presence with our social media marketing services",
+    title: "Brand Onboarding",
+    description: "Complete onboarding assistance for multiple platforms including Zepto, Flipkart Minutes, Amazon Fresh, Nykaa, and Blinkit - streamlining your entry into major marketplaces"
   },
   {
     icon: "/images/s_3.png",
-    title: "Social Media Marketing",
-    description:
-      "Interact with your customers and increase sales with our email marketing services",
+    title: "SEO Services",
+    description: "Comprehensive search engine optimization strategies to improve your product visibility and organic rankings across marketplaces"
   },
   {
     icon: "/images/s_4.png",
-    title: "Email Marketing",
-    description:
-      "With our content creation services, we help businesses drive results",
+    title: "Product Photography",
+    description: "High-quality, professional product photography services that capture your products in their best light and drive customer engagement"
   },
   {
     icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
-    description:
-      "Don't waste money on ineffective advertising. Our PPC services help you reach your target audience",
+    title: "Product Optimization",
+    description: "Data-driven product listing optimization to enhance visibility, improve conversion rates, and maximize sales performance"
+  },
+  {
+    icon: "/images/s_1.png",
+    title: "Brand Listing",
+    description: "Professional product listing services to showcase your brand effectively across multiple e-commerce platforms"
   },
 ];
 
@@ -153,8 +147,7 @@ export default function Home() {
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            Let&apos;s talk to get listed in days!
           </p>
 
           <div
@@ -237,7 +230,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={1000} /> +
+                    <NumberTicker value={10} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
