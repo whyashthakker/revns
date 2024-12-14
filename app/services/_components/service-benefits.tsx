@@ -22,7 +22,7 @@ import {
 interface Benefit {
   title: string;
   description: string;
-  icon: string;
+  icon?: string;
 }
 
 interface ServiceBenefitsProps {
@@ -58,7 +58,7 @@ const ServiceBenefits = ({ benefits }: ServiceBenefitsProps) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {benefits.map((benefit, index) => {
             // Get the icon component or fallback to Target if not found
-            const IconComponent = iconMapping[benefit.icon] || Target;
+            const IconComponent = benefit.icon ? iconMapping[benefit.icon] || Target : Target;
             
             return (
               <div 
