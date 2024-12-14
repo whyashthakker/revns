@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -60,6 +61,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <Script
+          src="https://analytics.ahrefs.com/analytics.js"
+          data-key={process.env.NEXT_PUBLIC_AHREFS_KEY}
+          defer={true} // Changed from string to boolean
+          strategy="lazyOnload" // Optional: controls loading strategy
+        />
+      </head>
       <body className={font.className}>
         {children}
         <Analytics />
