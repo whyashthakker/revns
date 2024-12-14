@@ -86,7 +86,7 @@ export const services: Service[] = [
         title: "Ready to Boost Your Sales?",
         description: "Get started with our expert advertising solutions",
         buttonText: "Contact Us",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   },
@@ -175,7 +175,7 @@ export const services: Service[] = [
         title: "Ready to Expand Your Reach?",
         description: "Start selling on multiple marketplaces today",
         buttonText: "Get Started",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   },
@@ -264,7 +264,7 @@ export const services: Service[] = [
         title: "Ready to Improve Your Rankings?",
         description: "Start optimizing your marketplace presence",
         buttonText: "Get Started",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   },
@@ -353,7 +353,7 @@ export const services: Service[] = [
         title: "Ready for Professional Photos?",
         description: "Enhance your product listings with professional photography",
         buttonText: "Start Now",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   },
@@ -442,7 +442,7 @@ export const services: Service[] = [
         title: "Ready to Optimize Your Listings?",
         description: "Start improving your product performance today",
         buttonText: "Get Started",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   },
@@ -531,7 +531,7 @@ export const services: Service[] = [
         title: "Ready to Enhance Your Brand Presence?",
         description: "Start creating professional product listings today",
         buttonText: "Get Started",
-        buttonLink: "/contact"
+        buttonLink: "/meeting"
       }
     }
   }

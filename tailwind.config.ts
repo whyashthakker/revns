@@ -80,6 +80,16 @@ const config = {
             "background-position": "calc(100% + var(--shimmer-width, 200px)) 0",
           },
         },
+        'gradient-x': {
+          '0%, 100%': {
+            'background-size': '200% 100%',
+            'background-position': 'left center'
+          },
+          '50%': {
+            'background-size': '200% 100%',
+            'background-position': 'right center'
+          },
+        },
         'shine' : {
           from: {
             "backgroundPosition": "0 0"
@@ -96,6 +106,7 @@ const config = {
         'scroll': 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
         'shimmer' : 'shimmer 8s infinite',
         'shine' : 'shine 2s  linear infinite',
+        'gradient-x': 'gradient-x 3s ease-in-out infinite',
       },
     },
   },

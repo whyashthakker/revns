@@ -22,32 +22,38 @@ const services = [
   {
     icon: "/images/s_6.png",
     title: "Amazon & Marketplace Ads",
-    description: "Strategic advertising solutions to boost your product visibility and sales across Amazon and other leading marketplaces"
+    description: "Strategic advertising solutions to boost your product visibility and sales across Amazon and other leading marketplaces",
+    slug: "/services/amazon-marketplace-ads"
   },
   {
     icon: "/images/s_5.png",
     title: "Brand Onboarding",
-    description: "Complete onboarding assistance for multiple platforms including Zepto, Flipkart Minutes, Amazon Fresh, Nykaa, and Blinkit - streamlining your entry into major marketplaces"
+    description: "Complete onboarding assistance for multiple platforms including Zepto, Flipkart Minutes, Amazon Fresh, Nykaa, and Blinkit - streamlining your entry into major marketplaces",
+    slug: "/services/brand-onboarding"
   },
   {
     icon: "/images/s_3.png",
     title: "SEO Services",
-    description: "Comprehensive search engine optimization strategies to improve your product visibility and organic rankings across marketplaces"
+    description: "Comprehensive search engine optimization strategies to improve your product visibility and organic rankings across marketplaces",
+    slug: "/services/seo-services"
   },
   {
     icon: "/images/s_4.png",
     title: "Product Photography",
-    description: "High-quality, professional product photography services that capture your products in their best light and drive customer engagement"
+    description: "High-quality, professional product photography services that capture your products in their best light and drive customer engagement",
+    slug: "/services/product-photography"
   },
   {
     icon: "/images/s_2.png",
     title: "Product Optimization",
-    description: "Data-driven product listing optimization to enhance visibility, improve conversion rates, and maximize sales performance"
+    description: "Data-driven product listing optimization to enhance visibility, improve conversion rates, and maximize sales performance",
+    slug: "/services/product-optimization"
   },
   {
     icon: "/images/s_1.png",
     title: "Brand Listing",
-    description: "Professional product listing services to showcase your brand effectively across multiple e-commerce platforms"
+    description: "Professional product listing services to showcase your brand effectively across multiple e-commerce platforms",
+    slug: "/services/brand-listing"
   },
 ];
 
@@ -275,23 +281,26 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 cursor-pointer hover:scale-105 transition-transform rounded-md"
-              >
+          {services.map((service) => (
+            <Link
+              href={service.slug}
+              key={service.title}
+              className="group"
+            >
+              <div className="flex flex-col justify-between h-full space-y-4 text-center bg-gray-100 p-4 group-hover:scale-105 transition-transform rounded-md">
                 <Image
                   src={service.icon}
                   width={10000}
                   height={10000}
                   className="object-contain bg-gray-100 p-4 w-full h-40 rounded-md"
-                  alt="image"
+                  alt={service.title}
                 />
                 <h1 className="text-xl font-medium">{service.title}</h1>
                 <p className="text-gray-500">{service.description}</p>
               </div>
-            ))}
-          </div>
+            </Link>
+          ))}
+        </div>
         </div>
       </Element>
 
