@@ -28,9 +28,9 @@ const Navbar = () => {
             Blog
           </Link>
 
-          <ScrollLink to="services" smooth={true} className="hover:text-blue-500">
+          <Link href="/services" className="hover:text-blue-500">
             Services
-          </ScrollLink>
+          </Link>
 
           <ScrollLink to="process" smooth={true} className="hover:text-blue-500">
             Process

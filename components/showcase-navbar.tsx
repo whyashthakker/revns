@@ -55,7 +55,7 @@ xl:w-4/5
             Blog
           </Link>
 
-             <Link href="/" className="hover:text-blue-500">
+             <Link href="/services" className="hover:text-blue-500">
             Services
           </Link>
           <Link href="/" className="hover:text-blue-500">
