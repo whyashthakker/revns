@@ -82,6 +82,10 @@ export default function Home() {
               Showcase
             </Link>
 
+            <Link href="/blog" className="hover:text-blue-500">
+              Blog
+            </Link>
+
             <ScrollLink
               to="services"
               smooth={true}
@@ -109,11 +113,6 @@ export default function Home() {
         </div>
 
         <div className="flex items-center gap-x-4">
-          <a href="mailto:geeta@explainx.ai" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              Contact
-            </button>
-          </a>
 
           <Link
             href={"/meeting"}

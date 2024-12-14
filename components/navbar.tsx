@@ -1,3 +1,5 @@
+'use client';  // Add this if you're using Next.js 13+ with app directory
+
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -6,7 +8,7 @@ import { Link as ScrollLink } from 'react-scroll';
 const Navbar = () => {
   return (
     <div className="overflow-hidden rounded-[6px] top-5 sticky md:mx-auto z-50 xl:w-4/5 2xl:w-[68%] bg-white flex items-center justify-between py-6 px-4 md:px-8 mx-6">
-      <Link href="/">
+      <Link href="/" legacyBehavior={false}>
         <Image
           src="/logo/REVNS.png"
           alt="Logo"
@@ -20,6 +22,10 @@ const Navbar = () => {
         <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
           <Link href="/showcase" className="hover:text-blue-500">
             Showcase
+          </Link>
+
+          <Link href="/blog" className="hover:text-blue-500">
+            Blog
           </Link>
 
           <ScrollLink to="services" smooth={true} className="hover:text-blue-500">
@@ -37,11 +43,6 @@ const Navbar = () => {
       </div>
 
       <div className="flex items-center gap-x-4">
-        <a href="mailto:geeta@explainx.ai" className="hidden lg:flex">
-          <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-            Contact
-          </button>
-        </a>
 
         <Link
           href="/meeting"

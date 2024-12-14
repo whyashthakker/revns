@@ -20,7 +20,7 @@ const Footer = () => {
         </Link>
         </p>
         <p className="text-left  text-xl  text-gray-500">
-          gt@revns.com
+          geeta@revns.com
         </p>
       </div>
 
