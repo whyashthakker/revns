@@ -1,3 +1,5 @@
+'use client'
+
 import { Service } from "@/types/services";
 
 interface ServiceSchemaProps {

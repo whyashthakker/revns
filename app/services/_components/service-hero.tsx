@@ -1,3 +1,5 @@
+'use client'
+
 import { Megaphone, ShoppingBag, Search, Camera, Settings, ListChecks } from 'lucide-react';
 
 export const iconMap = {

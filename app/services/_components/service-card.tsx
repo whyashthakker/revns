@@ -1,3 +1,5 @@
+'use client'
+
 import { ServiceMeta } from '@/types/services';
 import Link from 'next/link';
 

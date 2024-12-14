@@ -1,3 +1,5 @@
+'use client'
+
 import { CircleDot } from 'lucide-react';
 
 interface ProcessStep {
