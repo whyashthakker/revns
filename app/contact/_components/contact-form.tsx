@@ -107,7 +107,7 @@ export default function ContactForm() {
         <h2 className="text-xl font-semibold">Contact Us</h2>
       </div>
       <p className="text-sm text-gray-600 mb-4">
-        Get in touch with our e-commerce experts to accelerate your marketplace growth. We'll analyze your business needs and provide tailored solutions.
+        Get in touch with our e-commerce experts to accelerate your marketplace growth. We&apos;ll analyze your business needs and provide tailored solutions.
       </p>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
