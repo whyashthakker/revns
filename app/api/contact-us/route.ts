@@ -85,7 +85,7 @@ export async function POST(req: NextRequest) {
 
     // Prepare webhook URLs based on services
     const webhookUrls = [
-      process.env.REVNS_MAIN_WEBHOOK,
+      process.env.REVNS_SUPPORT_WEBHOOK,
       ...data.services.includes('advertising') ? [process.env.REVNS_ADS_WEBHOOK] : [],
       ...data.services.includes('photography') ? [process.env.REVNS_STUDIO_WEBHOOK] : []
     ].filter(Boolean) as string[];
