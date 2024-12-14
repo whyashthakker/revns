@@ -1,5 +1,4 @@
 import React from 'react';
-import { BasicLayout } from "@/app/(marketing)/_components/BasicLayout";
 
 const LoadingPulse = () => {
   return (
