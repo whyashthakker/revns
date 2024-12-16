@@ -13,6 +13,8 @@ experiments
 # testing
 /coverage
 
+z-blogs
+
 # next.js
 /.next/
 /out/
