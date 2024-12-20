@@ -534,5 +534,361 @@ export const services: Service[] = [
         buttonLink: "/meeting"
       }
     }
-  }
+  },
+  {
+    title: "Zepto Seller Onboarding Services",
+    description: "Expert assistance in listing and optimizing your products on Zepto's fast-growing grocery delivery platform in India",
+    slug: "zepto-seller-onboarding",
+    ogImage: "/images/services/zepto-onboarding-og.png",
+    keywords: [
+      "zepto seller registration",
+      "zepto vendor onboarding",
+      "zepto marketplace",
+      "zepto business integration",
+      "zepto product listing",
+      "zepto seller services",
+      "zepto india marketplace",
+      "grocery delivery platform",
+      "quick commerce platform",
+      "zepto dark store integration",
+      "zepto seller optimization",
+      "zepto business solutions"
+    ],
+    content: {
+      hero: {
+        heading: "Zepto Seller Onboarding Solutions",
+        subheading: "Launch Your Products on India's Fastest Growing Quick Commerce Platform",
+        description: "End-to-end assistance to help you list, optimize, and grow your product presence on Zepto's 10-minute delivery platform."
+      },
+      benefits: [
+        {
+          title: "Rapid Market Entry",
+          description: "Quick and efficient onboarding process to start selling on Zepto's platform",
+          icon: "Rocket"
+        },
+        {
+          title: "Dark Store Integration",
+          description: "Strategic placement of your products across Zepto's extensive dark store network",
+          icon: "Store"
+        },
+        {
+          title: "Category Optimization",
+          description: "Expert product categorization for maximum visibility and sales",
+          icon: "Layout"
+        }
+      ],
+      features: [
+        {
+          title: "Documentation Support",
+          description: "Complete assistance with seller verification and legal requirements"
+        },
+        {
+          title: "Product Catalog Management",
+          description: "Professional product listing and content optimization"
+        },
+        {
+          title: "Inventory Integration",
+          description: "Seamless integration with Zepto's inventory management system"
+        }
+      ],
+      process: {
+        title: "Our Onboarding Process",
+        steps: [
+          {
+            step: 1,
+            title: "Initial Assessment",
+            description: "Evaluation of your product portfolio and eligibility"
+          },
+          {
+            step: 2,
+            title: "Documentation",
+            description: "Assistance with seller registration and verification"
+          },
+          {
+            step: 3,
+            title: "Catalog Setup",
+            description: "Product listing and content optimization"
+          },
+          {
+            step: 4,
+            title: "Integration",
+            description: "Dark store network integration and go-live support"
+          }
+        ]
+      },
+      cta: {
+        title: "Ready to Sell on Zepto?",
+        description: "Join India's fastest-growing quick commerce platform",
+        buttonText: "Get Started",
+        buttonLink: "/meeting"
+      }
+    }
+  },
+  {
+    title: "Blinkit Seller Onboarding Services",
+    description: "Comprehensive assistance to help businesses list and grow their products on Blinkit's quick commerce platform",
+    slug: "blinkit-seller-onboarding",
+    ogImage: "/images/services/blinkit-onboarding-og.png",
+    keywords: [
+      "blinkit seller registration",
+      "blinkit vendor onboarding",
+      "blinkit marketplace",
+      "zomato blinkit integration",
+      "quick commerce platform",
+      "blinkit business solutions",
+      "blinkit store partner",
+      "grocery delivery platform",
+      "blinkit seller services",
+      "blinkit product listing",
+      "local store digitization",
+      "instant delivery marketplace"
+    ],
+    content: {
+      hero: {
+        heading: "Blinkit Seller Onboarding Solutions",
+        subheading: "Transform Your Local Store into a Digital Success",
+        description: "Expert guidance to help you list and grow your products on Blinkit's instant delivery platform, powered by Zomato's network."
+      },
+      benefits: [
+        {
+          title: "Zomato Network Access",
+          description: "Leverage the power of Zomato's established delivery network and customer base",
+          icon: "Network"
+        },
+        {
+          title: "Multi-category Presence",
+          description: "List across diverse categories from groceries to electronics",
+          icon: "Categories"
+        },
+        {
+          title: "Local Market Dominance",
+          description: "Establish strong presence in your local delivery radius",
+          icon: "Map"
+        }
+      ],
+      features: [
+        {
+          title: "Store Digitization",
+          description: "Complete digital transformation of your local store operations"
+        },
+        {
+          title: "Inventory Management",
+          description: "Real-time inventory sync with Blinkit's platform"
+        },
+        {
+          title: "Price Optimization",
+          description: "Strategic pricing tools for competitive advantage"
+        }
+      ],
+      process: {
+        title: "Our Onboarding Process",
+        steps: [
+          {
+            step: 1,
+            title: "Store Assessment",
+            description: "Evaluation of your store location and product range"
+          },
+          {
+            step: 2,
+            title: "Digital Setup",
+            description: "Store profile creation and documentation"
+          },
+          {
+            step: 3,
+            title: "Product Integration",
+            description: "Catalog setup and inventory synchronization"
+          },
+          {
+            step: 4,
+            title: "Operations Launch",
+            description: "Training and go-live support"
+          }
+        ]
+      },
+      cta: {
+        title: "Ready to Join Blinkit?",
+        description: "Transform your local store into a digital powerhouse",
+        buttonText: "Partner With Us",
+        buttonLink: "/meeting"
+      }
+    }
+  },
+  {
+    title: "Flipkart Minutes Seller Onboarding Services",
+    description: "Expert assistance in launching your products on Flipkart Minutes' ultra-fast delivery platform",
+    slug: "flipkart-minutes-onboarding",
+    ogImage: "/images/services/flipkart-minutes-og.png",
+    keywords: [
+      "flipkart minutes seller",
+      "flipkart quick commerce",
+      "flipkart 8-minute delivery",
+      "flipkart minutes onboarding",
+      "flipkart instant delivery",
+      "flipkart local sellers",
+      "flipkart minutes partner",
+      "quick commerce integration",
+      "flipkart seller services",
+      "flipkart minutes expansion",
+      "bangalore quick commerce",
+      "gurugram instant delivery"
+    ],
+    content: {
+      hero: {
+        heading: "Flipkart Minutes Seller Solutions",
+        subheading: "Join India's Fastest Growing 8-16 Minute Delivery Network",
+        description: "Comprehensive support to help you integrate your products with Flipkart Minutes' ultra-fast delivery service, backed by Flipkart's established marketplace."
+      },
+      benefits: [
+        {
+          title: "Dual Platform Advantage",
+          description: "List products on both Flipkart's main marketplace and Minutes platform",
+          icon: "LayoutGrid"
+        },
+        {
+          title: "Smart Inventory Distribution",
+          description: "Strategic placement across Flipkart's quick commerce fulfillment centers",
+          icon: "Network"
+        },
+        {
+          title: "Premium Market Access",
+          description: "Target high-value customers in premium urban locations",
+          icon: "Target"
+        }
+      ],
+      features: [
+        {
+          title: "Unified Dashboard",
+          description: "Single interface to manage both regular and Minutes deliveries"
+        },
+        {
+          title: "Dynamic Inventory",
+          description: "Real-time stock management across multiple fulfillment centers"
+        },
+        {
+          title: "Cross-Platform Analytics",
+          description: "Comprehensive insights across both delivery models"
+        }
+      ],
+      process: {
+        title: "Our Onboarding Process",
+        steps: [
+          {
+            step: 1,
+            title: "Eligibility Check",
+            description: "Assessment for Bengaluru and Gurugram operations"
+          },
+          {
+            step: 2,
+            title: "Platform Integration",
+            description: "Setup on both main marketplace and Minutes platform"
+          },
+          {
+            step: 3,
+            title: "Inventory Setup",
+            description: "Distribution strategy and fulfillment center allocation"
+          },
+          {
+            step: 4,
+            title: "Service Launch",
+            description: "Go-live support and performance optimization"
+          }
+        ]
+      },
+      cta: {
+        title: "Ready for Ultra-Fast Delivery?",
+        description: "Join Flipkart Minutes' exclusive seller network",
+        buttonText: "Schedule Consultation",
+        buttonLink: "/meeting"
+      }
+    }
+  },
+  {
+    title: "Amazon Fresh Seller Onboarding Services",
+    description: "Comprehensive assistance for listing your products on Amazon Fresh's multi-delivery platform - from scheduled deliveries to 10-minute quick commerce",
+    slug: "amazon-fresh-onboarding",
+    ogImage: "/images/services/amazon-fresh-og.png",
+    keywords: [
+      "amazon fresh seller",
+      "amazon quick commerce",
+      "amazon fresh onboarding",
+      "amazon grocery seller",
+      "amazon fresh integration",
+      "amazon scheduled delivery",
+      "amazon 10 minute delivery",
+      "amazon fresh partner",
+      "amazon fresh expansion",
+      "fresh store integration",
+      "amazon prime now",
+      "amazon india grocery"
+    ],
+    content: {
+      hero: {
+        heading: "Amazon Fresh Seller Solutions",
+        subheading: "Multi-Speed Delivery Platform for Modern Retail",
+        description: "End-to-end support for integrating your products with Amazon Fresh's versatile delivery network - from scheduled deliveries to 10-minute quick commerce, backed by Amazon's powerful marketplace ecosystem."
+      },
+      benefits: [
+        {
+          title: "Triple Delivery Model",
+          description: "Access scheduled, unscheduled, and quick commerce delivery networks",
+          icon: "Truck"
+        },
+        {
+          title: "Prime Integration",
+          description: "Reach millions of Prime members with preferential delivery options",
+          icon: "Star"
+        },
+        {
+          title: "Multi-City Presence",
+          description: "Launch across 12+ major cities with scheduled delivery support",
+          icon: "Map"
+        }
+      ],
+      features: [
+        {
+          title: "Flexible Fulfillment",
+          description: "Choose between FBA (Fulfillment by Amazon) or self-fulfilled models"
+        },
+        {
+          title: "Prime Benefits",
+          description: "Special integration with Prime member benefits and delivery options"
+        },
+        {
+          title: "Category Optimization",
+          description: "Strategic placement across fresh produce, groceries, and daily essentials"
+        }
+      ],
+      process: {
+        title: "Our Onboarding Process",
+        steps: [
+          {
+            step: 1,
+            title: "Model Selection",
+            description: "Choose your delivery model (Scheduled/Unscheduled/Quick Commerce)"
+          },
+          {
+            step: 2,
+            title: "City-wise Setup",
+            description: "Strategic launch plan based on city-specific requirements"
+          },
+          {
+            step: 3,
+            title: "Integration",
+            description: "Technical setup and inventory management system integration"
+          },
+          {
+            step: 4,
+            title: "Performance Launch",
+            description: "Go-live support and optimization across delivery models"
+          }
+        ]
+      },
+      cta: {
+        title: "Ready to Sell on Amazon Fresh?",
+        description: "Join India's most versatile grocery delivery platform",
+        buttonText: "Schedule Consultation",
+        buttonLink: "/meeting"
+      }
+    }
+  },
 ];

@@ -51,7 +51,7 @@ xl:w-4/5
             Services
           </Link>
           <Link href="/" className="hover:text-blue-500">
-        Process
+            Process
           </Link>
           <Link href="/" className="hover:text-blue-500">
             Guarentees
