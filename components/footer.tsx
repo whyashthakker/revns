@@ -25,10 +25,10 @@ const Footer = () => {
       </div>
 
       <div className="flex md:justify-center gap-x-4 mt-10">
-        © 2024 Revns. All Rights Reserved.
-        <Link href="/" className="text-blue-500">
+        © 2024 AISOLO TECHNOLOGIES PRIVATE LIMITED. All Rights Reserved.
+        {/* <Link href="/" className="text-blue-500">
           Privacy Policy
-        </Link>
+        </Link> */}
       </div>
     </footer>
   );
