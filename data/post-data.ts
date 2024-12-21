@@ -1,4 +1,4 @@
-// Generated on 2024-12-18T06:23:51.581Z
+// Generated on 2024-12-21T08:07:56.554Z
 interface Author {
   name: string;
   role: string;
@@ -19,6 +19,45 @@ interface Post {
 }
 
 const postData: Post[] = [
+  {
+    "title": "Mastering Amazon Sponsored Brands: Creating Engaging Creative Assets",
+    "file": "mastering-amazon-sponsored-brands-creative-assets",
+    "description": "A comprehensive guide to creating effective creative assets for Amazon Sponsored Brands campaigns to boost brand awareness and sales.",
+    "date": "December 20, 2024",
+    "datetime": "2024-12-20",
+    "author": {
+      "name": "Geeta",
+      "role": "",
+      "href": "#",
+      "imageUrl": "/images/blog/author/gt.jpeg"
+    },
+    "language": "en",
+    "url": "https://www.revns.com/blog/post/mastering-amazon-sponsored-brands-creative-assets",
+    "categories": [
+      "instagram",
+      "ai-tools",
+      "social-media"
+    ]
+  },
+  {
+    "title": "Beyond the Basics: A Deep Dive into Amazon Sponsored Products Ads",
+    "file": "beyond-basics-deep-dive-amazon-sponsored-products-ads",
+    "description": "Learn advanced strategies, optimization techniques, and expert insights for mastering Amazon Sponsored Products Ads to boost your e-commerce success in 2024.",
+    "date": "December 19, 2024",
+    "datetime": "2024-12-19",
+    "author": {
+      "name": "Geeta",
+      "role": "",
+      "href": "#",
+      "imageUrl": "/images/blog/author/gt.jpeg"
+    },
+    "language": "en",
+    "url": "https://www.revns.com/blog/post/beyond-basics-deep-dive-amazon-sponsored-products-ads",
+    "categories": [
+      "instagram",
+      "social-media"
+    ]
+  },
   {
     "title": "Amazon Marketing Services: Guía Educativa Completa para Impulsar tus Ventas en 2024",
     "file": "domina-amazon-marketing-services-guia-definitiva-2024-es",
@@ -326,6 +365,24 @@ const postData: Post[] = [
     },
     "language": "hi",
     "url": "https://www.revns.com/blog/post/hi/amazon-vigyapan-agency-safalta-transformation-hi",
+    "categories": [
+      "social-media"
+    ]
+  },
+  {
+    "title": "كيف تقوم وكالات إعلانات أمازون بتحويل نجاحك في السوق",
+    "file": "amazon-ads-agency-marketplace-success-arabic",
+    "description": "اكتشف كيف يمكن للشراكة مع وكالة إعلانات أمازون أن تزيد مبيعاتك بشكل كبير، وتحسن عائد استثمارك الإعلاني، وتمنحك ميزة تنافسية في السوق.",
+    "date": "December 17, 2024",
+    "datetime": "2024-12-17",
+    "author": {
+      "name": "Geeta",
+      "role": "",
+      "href": "#",
+      "imageUrl": "/images/blog/author/gt.jpeg"
+    },
+    "language": "ar",
+    "url": "https://www.revns.com/blog/post/ar/amazon-ads-agency-marketplace-success-arabic",
     "categories": [
       "social-media"
     ]
